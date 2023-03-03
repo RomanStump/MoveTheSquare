@@ -10,6 +10,7 @@ public class GameController {
 			double dy = mouseY - (square.getY() + square.getHeight()/2);
 			
 			double moveX = 0, moveY = 0;
+			
 			if (dx > 0) {
 				moveX = Game.MOVE_DIST;
 			} else {
